@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tienda de comestibles</title>
+        <meta charset="UTF-8" />
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style class="dark-mode light-mode"></style>
+    </head>
+
+
+
+    <body>
+        <header class="dark-mode light-mode">
+            <h1>Tienda de comestibles</h1><br/>
+            <h2>Pagina principal</h2>
+        </header>
+        <section>
+            <nav>
+                <a href="informacion.html">Informacion de la tienda</a>
+
+            </nav>
+        </section>
+        
+        
+        <section>
+            <article>
+                <header><h2>Aguacate</h2></header>
+                <figure>
+                    <img src="img/aguacate.jpg" alt="" class="formatoImg"/>
+                    <figcaption>$2000 el kilo</figcaption>
+                </figure>
+                <p class="letrasArticulos">Ut magnis fusce natoque sagittis imperdiet euismod rutrum tristique eros scelerisque,<br>
+                    nisl phasellus facilisi senectus neque donec habitasse tortor nisi, mi lectus fames consequat <br>
+                    elementum placerat auctor rutrum eros vehicula pellentesque.
+                </p>
+            </article>
+
+            <article>
+                <header><h2>Manzana</h2></header>
+                <figure>
+                    <img src="img/manzana.jpg" alt="" class="formatoImg"/>
+                    <figcaption>$2000 el kilo</figcaption>
+                </figure>
+
+                <p class="letrasArticulos">Ut magnis fusce natoque sagittis imperdiet euismod rutrum tristique eros scelerisque,<br>
+                    nisl phasellus facilisi senectus neque donec habitasse tortor nisi, mi lectus fames consequat <br>
+                    elementum placerat auctor rutrum eros vehicula pellentesque.
+                </p>
+
+
+            </article>
+        </section>
+
+
+        <button onclick="darkMode()">Darkmode</button>
+        <button onclick="lightMode()">LightMode</button>
+        <script>
+            function darkMode() {
+                var element = document.body;
+                var content = document.getElementById("DarkModetext");
+                element.className = "dark-mode";
+                content.innerText = "Dark Mode is ON";
+            }
+            function lightMode() {
+                var element = document.body;
+                var content = document.getElementById("DarkModetext");
+                element.className = "light-mode";
+                content.innerText = "Dark Mode is OFF";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+header {
+    text-align: center;
+    background-color: black ;
+    color: white;
+}
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.letrasArticulos {
+    font-size: 20px;
+    font-family: cursive
+}
+.formatoImg {
+    height: 200px;
+    align-content: center;
+}
+.contactos {
+    font-size: 30px;
+}
